@@ -8,15 +8,15 @@
 
 ### 👨‍💼 About Me
 
-- 🔭 Currently working on **ThinkAttitude**
-- 🌱 A aprofundar conhecimentos em TODO
-- 💡 Interesso-me por TODO
-- 💬 Gosto de transformar ideias em produtos digitais com impacto real
+- 🔭 Currently working at **ThinkAttitude**
+- 🌱 Currently deepening my knowledge in **DevOps**, **Operating Systems Fundamentals**, and **Image Processing & Computer Vision**.
+- 💡 I'm interested in **software engineering, mobile development, and artificial intelligence**
+- 💬 I love turning ideas into digital products with real impact.
 - ⚡ TODO
 
 ---
 
-### 📫 Como entrar em contacto comigo
+### 📫 Reach Me
 
 <p align="left">
   <a href="https://www.linkedin.com/in/miguelandrecordeiro/" target="_blank">
@@ -30,9 +30,9 @@
 
 ---
 
-### 🛠️ Tecnologias & Ferramentas
+### 🛠️ Languages & Tools
 
-#### 💻 Linguagens
+#### 💻 Languages
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
@@ -41,7 +41,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 
-#### ⚙️ Ferramentas
+#### ⚙️ Tools
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=android-studio&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
@@ -50,7 +50,7 @@
 
 ---
 
-### 📊 Estatísticas do GitHub
+### 📊 GitHub Statistics
 
 <p align="center">
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=miguelac4&show_icons=true&theme=tokyonight&hide_border=true" />
@@ -59,9 +59,8 @@
 
 ---
 
-### ❤️ Um pouco mais sobre mim
+### ❤️ A little bit more about me...
 
-> “A tecnologia não é só código — é criatividade, empatia e propósito.”  
+> “Between lines of code and waves of the sea, I find my balance.”  
 > — *Miguel Cordeiro*
-
 ---
