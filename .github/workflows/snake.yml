@@ -8,7 +8,6 @@ on:
     branches:
       - main
 
-# ⭐ dá permissão de escrever no repo
 permissions:
   contents: write
 
@@ -17,7 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ⭐ checkout com o token para poder fazer push
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
@@ -27,10 +25,15 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: miguelac4
+
+          # ---------- CUSTOMIZAÇÃO DE CORES ----------
+          color_snake: "#8A2BE2"
+          color_dots: "#161B22 #39D353 #26A641 #006D32 #00471C"
+          # ------------------------------------------
+
           outputs: |
             dist/snake.svg
 
-      # ⭐ commit + push do ficheiro gerado
       - name: Commit and push snake.svg
         run: |
           mkdir -p output
