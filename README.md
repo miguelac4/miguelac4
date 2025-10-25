@@ -20,11 +20,11 @@
 
 <p align="left">
   <a href="https://www.linkedin.com/in/miguelandrecordeiro/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:miguel.cordeiro@drawline.pt">
-    <img src="https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white" alt="Email">
+    <img src="assets/icons/gmail.svg" width="36" height="36" alt="Email" />
   </a>
 </p>
 
