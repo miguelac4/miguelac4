@@ -2,7 +2,7 @@ name: generate-contribution-snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # corre todos os dias à meia-noite (UTC)
+    - cron: "0 0 * * *"   # todos os dias à meia-noite UTC
   workflow_dispatch:
   push:
     branches:
@@ -26,13 +26,22 @@ jobs:
         with:
           github_user_name: miguelac4
 
-          # ---------- CUSTOMIZAÇÃO DE CORES ----------
-          color_snake: "#8A2BE2"
-          color_dots: "#161B22 #39D353 #26A641 #006D32 #00471C"
-          # ------------------------------------------
-
+          # 👇 AQUI É A MAGIA DAS CORES
+          # repara que isto é *um único* output com query string
           outputs: |
-            dist/snake.svg
+            dist/snake.svg?color_snake=%238A2BE2&color_dots=%230D1117,%2339D353,%2326A641,%23006D32,%2300471C
+
+          # explicado:
+          #  - color_snake=%238A2BE2         -> #8A2BE2 (roxo da cobra)
+          #  - color_dots=...
+          #       %230D1117  -> #0D1117   fundo escuro (0 commits)
+          #       %2339D353  -> #39D353   verde claro
+          #       %2326A641  -> #26A641   verde médio
+          #       %23006D32  -> #006D32   verde escuro
+          #       %2300471C  -> #00471C   verde MUITO escuro
+          #
+          # IMPORTANTE: o "#" tem de ir url-encoded como %23
+          # e cada cor depois separada por vírgulas
 
       - name: Commit and push snake.svg
         run: |
