@@ -26,22 +26,19 @@ jobs:
         with:
           github_user_name: miguelac4
 
-          # 👇 AQUI É A MAGIA DAS CORES
-          # repara que isto é *um único* output com query string
+          # ficheiro final + tema dark
           outputs: |
-            dist/snake.svg?color_snake=%238A2BE2&color_dots=%230D1117,%2339D353,%2326A641,%23006D32,%2300471C
+            dist/snake.svg?color_bg=%230D1117&color_snake=%238A2BE2&color_dots=%230D1117,%2339D353,%2326A641,%23006D32,%2300471C
 
-          # explicado:
-          #  - color_snake=%238A2BE2         -> #8A2BE2 (roxo da cobra)
-          #  - color_dots=...
-          #       %230D1117  -> #0D1117   fundo escuro (0 commits)
-          #       %2339D353  -> #39D353   verde claro
-          #       %2326A641  -> #26A641   verde médio
-          #       %23006D32  -> #006D32   verde escuro
-          #       %2300471C  -> #00471C   verde MUITO escuro
-          #
-          # IMPORTANTE: o "#" tem de ir url-encoded como %23
-          # e cada cor depois separada por vírgulas
+          # breakdown:
+          # color_bg=%230D1117      -> fundo dark (#0D1117)
+          # color_snake=%238A2BE2   -> cobra roxa (#8A2BE2)
+          # color_dots=...
+          #   %230D1117  -> #0D1117 (0 commits, "apagado")
+          #   %2339D353  -> #39D353 (verde claro)
+          #   %2326A641  -> #26A641
+          #   %23006D32  -> #006D32
+          #   %2300471C  -> #00471C (mais escuro)
 
       - name: Commit and push snake.svg
         run: |
