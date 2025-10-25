@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hello! </h1>
+<h1 align="center">👋 Hello, I´m Miguel! </h1>
 
 <p align="center">
   💻 Software Developer
