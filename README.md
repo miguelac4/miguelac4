@@ -33,16 +33,18 @@
 ### 🛠️ Languages / Tools / IDEs
 
 #### 💻 Languages
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+<p align="left">
+  <img src="assets/icons/php.svg" width="36" height="36" alt="PHP" />
+  <img src="assets/icons/java.svg" width="36" height="36" alt="Java" />
+  <img src="assets/icons/mysql.svg" width="36" height="36" alt="MySQL" />
+  <img src="assets/icons/python.svg" width="36" height="36" alt="Python" />
+  <img src="assets/icons/kotlin.svg" width="36" height="36" alt="Kotlin" />
+  <img src="assets/icons/js.svg" width="36" height="36" alt="JavaScript" />
+  <img src="assets/icons/cpp.svg" width="36" height="36" alt="C++" />
+  <img src="assets/icons/csharp.svg" width="36" height="36" alt="C#" />
+  <img src="assets/icons/html5.svg" width="36" height="36" alt="HTML5" />
+  <img src="assets/icons/css3.svg" width="36" height="36" alt="CSS3" />
+</p>
 
 
 
