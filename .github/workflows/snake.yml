@@ -3,18 +3,25 @@ name: generate-contribution-snake
 on:
   schedule:
     - cron: "0 0 * * *"   # corre todos os dias à meia-noite (UTC)
-  workflow_dispatch:       # permite correr manualmente
+  workflow_dispatch:
   push:
     branches:
       - main
+
+# ⭐ dá permissão de escrever no repo
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # ⭐ checkout com o token para poder fazer push
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate snake
         uses: Platane/snk@v3
@@ -23,6 +30,7 @@ jobs:
           outputs: |
             dist/snake.svg
 
+      # ⭐ commit + push do ficheiro gerado
       - name: Commit and push snake.svg
         run: |
           mkdir -p output
