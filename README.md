@@ -24,7 +24,7 @@
   </a>
   &nbsp;
   <a href="mailto:miguel.cordeiro@drawline.pt">
-    <img src="assets/icons/gmail.svg" width="36" height="36" alt="Email" />
+    <img src="assets/icons/email.svg" width="36" height="36" alt="Email" />
   </a>
 </p>
 
