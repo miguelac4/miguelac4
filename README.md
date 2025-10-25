@@ -76,7 +76,7 @@
   <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguelac4&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
-![Snake animation](https://github.com/miguelac4/miguelac4/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/miguelac4/miguelac4/blob/main/output/github-contribution-grid-snake.svg)
 
 ---
 
