@@ -49,23 +49,50 @@
 
 
 #### ⚙️ Tools
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-02569B?logo=swagger&logoColor=white)
-![Cron](https://img.shields.io/badge/Cron-000000?logo=linux&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=android-studio&logoColor=white)
+<p align="left">
+  <!-- Git -->
+  <img src="assets/icons/git.svg" width="36" height="36" alt="Git" />
 
+  <!-- Docker -->
+  <img src="assets/icons/docker.svg" width="36" height="36" alt="Docker" />
+
+  <!-- Postman -->
+  <img src="assets/icons/postman.svg" width="36" height="36" alt="Postman" />
+
+  <!-- REST APIs -->
+  <img src="assets/icons/restapi.svg" width="36" height="36" alt="REST APIs" />
+
+  <!-- Cron / Linux -->
+  <img src="assets/icons/linux.svg" width="36" height="36" alt="Linux / Cron" />
+
+  <!-- Android Studio -->
+  <img src="assets/icons/androidstudio.svg" width="36" height="36" alt="Android Studio" />
+</p>
 
 
 #### 🧑‍💻 IDEs
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?logo=intellij-idea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-21D789?logo=pycharm&logoColor=white)
-![PhpStorm](https://img.shields.io/badge/PhpStorm-7A57D1?logo=phpstorm&logoColor=white)
-![Eclipse IDE](https://img.shields.io/badge/Eclipse%20IDE-2C2255?logo=eclipse-ide&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?logo=anaconda&logoColor=white)
+<p align="left">
+  <!-- VS Code -->
+  <img src="assets/icons/vscode.svg" width="36" height="36" alt="VS Code" />
+
+  <!-- IntelliJ IDEA -->
+  <img src="assets/icons/intellij.svg" width="36" height="36" alt="IntelliJ IDEA" />
+
+  <!-- PyCharm -->
+  <img src="assets/icons/pycharm.svg" width="36" height="36" alt="PyCharm" />
+
+  <!-- PhpStorm -->
+  <img src="assets/icons/phpstorm.svg" width="36" height="36" alt="PhpStorm" />
+
+  <!-- Eclipse -->
+  <img src="assets/icons/eclipse.svg" width="36" height="36" alt="Eclipse IDE" />
+
+  <!-- Jupyter Notebook -->
+  <img src="assets/icons/jupyter.svg" width="36" height="36" alt="Jupyter Notebook" />
+
+  <!-- Anaconda -->
+  <img src="assets/icons/anaconda.svg" width="36" height="36" alt="Anaconda" />
+</p>
 
 
 
