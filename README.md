@@ -20,11 +20,11 @@
 
 <p align="left">
   <a href="https://www.linkedin.com/in/miguelandrecordeiro/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:miguel.cordeiro@drawline.pt">
-    <img src="https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white" alt="Email">
+    <img src="assets/icons/email.svg" width="36" height="36" alt="Email" />
   </a>
 </p>
 
@@ -33,37 +33,66 @@
 ### 🛠️ Languages / Tools / IDEs
 
 #### 💻 Languages
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+<p align="left">
+  <img src="assets/icons/php.svg" width="36" height="36" alt="PHP" />
+  <img src="assets/icons/java.svg" width="36" height="36" alt="Java" />
+  <img src="assets/icons/mysql.svg" width="36" height="36" alt="MySQL" />
+  <img src="assets/icons/python.svg" width="36" height="36" alt="Python" />
+  <img src="assets/icons/kotlin.svg" width="36" height="36" alt="Kotlin" />
+  <img src="assets/icons/js.svg" width="36" height="36" alt="JavaScript" />
+  <img src="assets/icons/cpp.svg" width="36" height="36" alt="C++" />
+  <img src="assets/icons/csharp.svg" width="36" height="36" alt="C#" />
+  <img src="assets/icons/html5.svg" width="36" height="36" alt="HTML5" />
+  <img src="assets/icons/css3.svg" width="36" height="36" alt="CSS3" />
+</p>
 
 
 
 #### ⚙️ Tools
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-02569B?logo=swagger&logoColor=white)
-![Cron](https://img.shields.io/badge/Cron-000000?logo=linux&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=android-studio&logoColor=white)
+<p align="left">
+  <!-- Git -->
+  <img src="assets/icons/git.svg" width="36" height="36" alt="Git" />
 
+  <!-- Docker -->
+  <img src="assets/icons/docker.svg" width="36" height="36" alt="Docker" />
+
+  <!-- Postman -->
+  <img src="assets/icons/postman.svg" width="36" height="36" alt="Postman" />
+
+  <!-- REST APIs -->
+  <img src="assets/icons/restapi.svg" width="36" height="36" alt="REST APIs" />
+
+  <!-- Cron / Linux -->
+  <img src="assets/icons/linux.svg" width="36" height="36" alt="Linux / Cron" />
+
+  <!-- Android Studio -->
+  <img src="assets/icons/androidstudio.svg" width="36" height="36" alt="Android Studio" />
+</p>
 
 
 #### 🧑‍💻 IDEs
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?logo=intellij-idea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-21D789?logo=pycharm&logoColor=white)
-![PhpStorm](https://img.shields.io/badge/PhpStorm-7A57D1?logo=phpstorm&logoColor=white)
-![Eclipse IDE](https://img.shields.io/badge/Eclipse%20IDE-2C2255?logo=eclipse-ide&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?logo=anaconda&logoColor=white)
+<p align="left">
+  <!-- VS Code -->
+  <img src="assets/icons/vscode.svg" width="36" height="36" alt="VS Code" />
+
+  <!-- IntelliJ IDEA -->
+  <img src="assets/icons/intellij.svg" width="36" height="36" alt="IntelliJ IDEA" />
+
+  <!-- PyCharm -->
+  <img src="assets/icons/pycharm.svg" width="36" height="36" alt="PyCharm" />
+
+  <!-- PhpStorm -->
+  <img src="assets/icons/phpstorm.svg" width="36" height="36" alt="PhpStorm" />
+
+  <!-- Eclipse -->
+  <img src="assets/icons/eclipse.svg" width="36" height="36" alt="Eclipse IDE" />
+
+  <!-- Jupyter Notebook -->
+  <img src="assets/icons/jupyter.svg" width="36" height="36" alt="Jupyter Notebook" />
+
+  <!-- Anaconda -->
+  <img src="assets/icons/anaconda.svg" width="36" height="36" alt="Anaconda" />
+</p>
 
 
 
