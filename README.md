@@ -10,7 +10,7 @@
 
 - 🔭 Currently working at **DrawlineIT**
 - 🌱 Currently deepening my knowledge in **DevOps**, **Operating Systems Fundamentals**, and **Image Processing & Computer Vision**.
-- 💡 I'm interested in **software engineering, mobile development, and artificial intelligence**
+- 💡 I'm interested in **software engineering, back-end development, and artificial intelligence**
 - 💬 I love turning ideas into digital products with real impact.
 
 ---
