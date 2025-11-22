@@ -111,4 +111,8 @@
 
 > “Between lines of code and waves of the sea, I find my balance.”  
 > — *Miguel Cordeiro*
+
+<p align="center">
+  <img src="assets/img/surfing-in-ericeira.png" width="500" alt="Mar" />
+</p>
 ---
