@@ -114,7 +114,7 @@
 
 <p>
   <img
-    src="assets/img/surfing-in-ericeira.jpg"
+    src="assets/img/blurred-frame.jpg"
     alt="Mar"
     style="
       width: 100%;
