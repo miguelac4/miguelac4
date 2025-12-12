@@ -67,6 +67,10 @@
   <img src="assets/icons/androidstudio.svg" width="36" height="36" alt="Android Studio" />
 </p>
 
+ <!-- MySQL Workbench -->
+  <img src="assets/icons/mysqlworkbench.svg" width="36" height="36" alt="MySQL Workbench" />
+</p>
+
 
 #### 🧑‍💻 IDEs
 <p align="left">
