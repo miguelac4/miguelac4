@@ -4,6 +4,8 @@
   💻 Software Developer
 </p>
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=miguelac4)](https://git.io/streak-stats)
+
 ---
 
 ### 👨‍💼 About Me
