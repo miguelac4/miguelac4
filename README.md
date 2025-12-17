@@ -4,8 +4,6 @@
   💻 Software Developer
 </p>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=miguelac4&theme=dark)](https://git.io/streak-stats)
-
 ---
 
 ### 👨‍💼 About Me
@@ -102,6 +100,10 @@
 ---
 
 ### 📊 GitHub Statistics
+
+<p align="center">
+<img src="https://github-readme-streak-stat-taupe.vercel.app?user=miguelac4&theme=dark&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
+</p>
 
 <p align="center">
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=miguelac4&show_icons=true&theme=tokyonight&hide_border=true" />
