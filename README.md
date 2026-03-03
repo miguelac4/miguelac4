@@ -115,7 +115,6 @@
 ### ❤️ A little bit more about me...
 
 > “Between lines of code and waves of the sea, I find my balance.”  
-> — *Miguel Cordeiro*
 
 <p>
   <img
