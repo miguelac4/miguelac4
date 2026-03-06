@@ -35,6 +35,7 @@
   <img src="assets/icons/php.svg" width="36" height="36" alt="PHP" />
   <img src="assets/icons/java.svg" width="36" height="36" alt="Java" />
   <img src="assets/icons/mysql.svg" width="36" height="36" alt="MySQL" />
+  <img src="assets/icons/react.svg" width="36" height="36" alt="React" 
   <img src="assets/icons/python.svg" width="36" height="36" alt="Python" />
   <img src="assets/icons/kotlin.svg" width="36" height="36" alt="Kotlin" />
   <img src="assets/icons/js.svg" width="36" height="36" alt="JavaScript" />
@@ -62,6 +63,9 @@
 
   <!-- Cron / Linux -->
   <img src="assets/icons/linux.svg" width="36" height="36" alt="Linux / Cron" />
+
+  <!-- ViteJS-->
+  <img src="assets/icons/vitejs.svg" width="36" height="36" alt="ViteJS" />
 
   <!-- Android Studio -->
   <img src="assets/icons/androidstudio.svg" width="36" height="36" alt="Android Studio" />
