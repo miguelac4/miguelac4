@@ -8,9 +8,9 @@
 
 ### 👨‍💼 About Me
 
-- 🔭 Currently working at **DrawlineIT**
-- 🌱 Deepening my knowledge in **DevOps**, **Cyber Security**, and **Computer Vision**.
-- 💡 I'm interested in **software engineering, back-end development, and artificial intelligence**
+- Currently working at **DrawlineIT**
+- Deepening my knowledge in **DevOps**, **Cyber Security**, and **Computer Vision**.
+- I'm interested in **software engineering, back-end development, and artificial intelligence**
 
 ---
 
