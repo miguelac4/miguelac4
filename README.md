@@ -58,9 +58,6 @@
   <!-- Postman -->
   <img src="assets/icons/postman.svg" width="36" height="36" alt="Postman" />
 
-  <!-- REST APIs -->
-  <img src="assets/icons/restapi.svg" width="36" height="36" alt="REST APIs" />
-
   <!-- Cron / Linux -->
   <img src="assets/icons/linux.svg" width="36" height="36" alt="Linux / Cron" />
 
