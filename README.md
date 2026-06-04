@@ -8,7 +8,7 @@
 
 ### 👨‍💼 About Me
 
-- Currently working at **DrawlineIT**
+- Currently working at **Uniksystem**
 - Deepening my knowledge in **DevOps**, **Cyber Security**, and **Computer Vision**.
 - I'm interested in **software engineering, back-end development, and artificial intelligence**
 
@@ -21,7 +21,7 @@
     <img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:miguel.cordeiro@drawline.pt">
+  <a href="mailto:miguel.andre.cordeiro@gmail.com">
     <img src="assets/icons/email.svg" width="36" height="36" alt="Email" />
   </a>
 </p>
