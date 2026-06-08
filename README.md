@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hello, I´m Miguel! </h1>
+<h1 align="center">👋 Hello, I'm Miguel! </h1>
 
 <p align="center">
   💻 Software Developer
@@ -8,9 +8,9 @@
 
 ### 👨‍💼 About Me
 
-- Currently working at **Uniksystem**
-- Deepening my knowledge in **DevSecOps**, **Cyber Security**, and **Computer Vision**.
-- I'm interested in **software engineering, back-end development, and artificial intelligence**
+- Currently working as a Software Developer at **Uniksystem**
+- Deepening my knowledge in **DevSecOps**, **Cyber Security**, and **Computer Vision**
+- Passionate about **software engineering, infrastructure & containerization, and artificial intelligence**
 
 ---
 
@@ -35,7 +35,7 @@
   <img src="assets/icons/php.svg" width="36" height="36" alt="PHP" />
   <img src="assets/icons/java.svg" width="36" height="36" alt="Java" />
   <img src="assets/icons/mysql.svg" width="36" height="36" alt="MySQL" />
-  <img src="assets/icons/react.svg" width="36" height="36" alt="React" 
+  <img src="assets/icons/react.svg" width="36" height="36" alt="React" />
   <img src="assets/icons/python.svg" width="36" height="36" alt="Python" />
   <img src="assets/icons/kotlin.svg" width="36" height="36" alt="Kotlin" />
   <img src="assets/icons/js.svg" width="36" height="36" alt="JavaScript" />
