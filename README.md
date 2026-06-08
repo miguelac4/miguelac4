@@ -74,7 +74,6 @@
   <img src="assets/icons/tailwindcss.svg" width="36" height="36" alt="MySQL Workbench" />
 </p>
 
-<!-- 
 #### 🧑‍💻 IDEs
 <p align="left">
   <!-- VS Code -->
@@ -98,7 +97,6 @@
   <!-- Anaconda -->
   <img src="assets/icons/anaconda.svg" width="36" height="36" alt="Anaconda" />
 </p>
--->
 
 
 
