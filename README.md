@@ -74,30 +74,18 @@
   <img src="assets/icons/tailwindcss.svg" width="36" height="36" alt="MySQL Workbench" />
 </p>
 
+<!--
 #### 🧑‍💻 IDEs
 <p align="left">
-  <!-- VS Code -->
   <img src="assets/icons/vscode.svg" width="36" height="36" alt="VS Code" />
-
-  <!-- IntelliJ IDEA -->
   <img src="assets/icons/intellij.svg" width="36" height="36" alt="IntelliJ IDEA" />
-
-  <!-- PyCharm -->
   <img src="assets/icons/pycharm.svg" width="36" height="36" alt="PyCharm" />
-
-  <!-- PhpStorm -->
   <img src="assets/icons/phpstorm.svg" width="36" height="36" alt="PhpStorm" />
-
-  <!-- Eclipse -->
   <img src="assets/icons/eclipse.svg" width="36" height="36" alt="Eclipse IDE" />
-
-  <!-- Jupyter Notebook -->
   <img src="assets/icons/jupyter.svg" width="36" height="36" alt="Jupyter Notebook" />
-
-  <!-- Anaconda -->
   <img src="assets/icons/anaconda.svg" width="36" height="36" alt="Anaconda" />
 </p>
-
+-->
 
 
 ---
