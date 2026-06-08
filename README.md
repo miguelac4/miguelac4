@@ -9,7 +9,7 @@
 ### 👨‍💼 About Me
 
 - Currently working at **Uniksystem**
-- Deepening my knowledge in **DevOps**, **Cyber Security**, and **Computer Vision**.
+- Deepening my knowledge in **DevSecOps**, **Cyber Security**, and **Computer Vision**.
 - I'm interested in **software engineering, back-end development, and artificial intelligence**
 
 ---
