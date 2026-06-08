@@ -85,8 +85,6 @@
   <img src="assets/icons/jupyter.svg" width="36" height="36" alt="Jupyter Notebook" />
   <img src="assets/icons/anaconda.svg" width="36" height="36" alt="Anaconda" />
 </p>
--->
-
 
 ---
 
@@ -100,7 +98,7 @@
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=miguelac4&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguelac4&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
-
+-->
 ---
 
 ### ❤️ A little bit more about me...
