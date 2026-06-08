@@ -71,7 +71,10 @@
   <img src="assets/icons/mysqlworkbench.svg" width="36" height="36" alt="MySQL Workbench" />
 
  <!-- Tailwind Css -->
-  <img src="assets/icons/tailwindcss.svg" width="36" height="36" alt="MySQL Workbench" />
+  <img src="assets/icons/tailwindcss.svg" width="36" height="36" alt="Tailwindcss" />
+
+  <!-- Jira -->
+  <img src="assets/icons/Jira.svg" width="36" height="36" alt="Jira" />
 </p>
 
 <!--
