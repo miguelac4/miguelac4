@@ -57,22 +57,27 @@ real tonal separation between it and the background, and sharp focus. A dark,
 soft, or busy photo cannot be rescued by these options; crop harder or use a
 different photo.
 
-The two pictures currently committed were made with:
+`ascii.svg`, the only one the page currently uses, was made with:
 
 ```
-# ascii.svg — a face, lighter than its background, so inverted
+# a face, lighter than its background, so inverted
 python scripts/generate_portrait.py PHOTO \
   --crop 0.20,0.33,0.63,0.72 --rows 50 --flatten 0 --autocontrast 2 \
   --invert -o ascii.svg
+```
 
-# sea.svg — a cliff against bright sky, so not inverted.
-# 76 columns is what makes it exactly the 620px page width.
+Its source photo is deliberately **not** committed — it is not needed to render
+the page, and the frame has other people in it.
+
+The closing image is the photograph itself, not an ASCII treatment. To go back
+to one, this is the command that produced it — no `--invert`, because a cliff
+against a bright sky is *darker* than its background, and 76 columns is what
+lands it exactly on the 620px page width:
+
+```
 python scripts/generate_portrait.py assets/img/surfing-in-ericeira.jpg \
   --rows 20 --cols 76 --flatten 0 --autocontrast 1 -o sea.svg
 ```
-
-The source photo for `ascii.svg` is deliberately **not** committed — it is not
-needed to render the page, and the frame has other people in it.
 
 ## Checking the render before pushing
 

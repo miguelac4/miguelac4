@@ -47,6 +47,6 @@
 
 <div align="center">
 
-<img src="./sea.svg" width="620" alt="Ericeira"/>
+<img src="./assets/img/blurred-frame.jpg" width="620" alt="Ericeira"/>
 
 </div>

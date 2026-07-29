@@ -38,10 +38,15 @@ FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
 HEAD_FONT = "jbmono-head.woff2"
 
 WIDTH = 620      # the column width every graphic on the page shares
-FS = 16          # heading size
-HEIGHT = 26
+FS = 19          # heading size
 ADVANCE = 0.6    # JetBrains Mono is 600/1000 units per em
 DASH_W = 18      # the about-list marker
+
+# Derived from FS rather than fixed, so changing the heading size keeps the
+# hairline on the optical centre of the text instead of drifting off it.
+BASELINE = FS * 1.13         # where the text sits inside the box
+RULE_Y = BASELINE - FS * 0.34  # roughly half the cap height above the baseline
+HEIGHT = round(BASELINE + FS * 0.5)
 
 
 @functools.lru_cache(maxsize=None)
@@ -76,10 +81,10 @@ def draw(word):
         f'.e-f{{fill:{LIGHT["emph"]}}}.u-s{{stroke:{LIGHT["rule"]}}}'
         f'@media(prefers-color-scheme:dark){{'
         f'.e-f{{fill:{DARK["emph"]}}}.u-s{{stroke:{DARK["rule"]}}}}}</style>'
-        f'<text x="0" y="18" class="e-f" font-size="{FS}" '
+        f'<text x="0" y="{BASELINE:.1f}" class="e-f" font-size="{FS}" '
         f'font-weight="600">{word}</text>'
-        f'<line x1="{rule_x:.0f}" y1="12.5" x2="{WIDTH}" y2="12.5" '
-        f'class="u-s" stroke-width="1"/>'
+        f'<line x1="{rule_x:.0f}" y1="{RULE_Y:.1f}" x2="{WIDTH}" '
+        f'y2="{RULE_Y:.1f}" class="u-s" stroke-width="1"/>'
         f'</svg>')
 
 
