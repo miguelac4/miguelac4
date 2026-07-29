@@ -180,8 +180,14 @@ def build_svg(rows, cols):
         w_px = len(line) * CHAR_W
         begin = i * STEP
         cid = f"c{i}"
+        # The rect's own width is the FULL width, and the animation runs 0 -> full
+        # on top of it. That ordering matters: if SMIL does not run, the picture
+        # is simply there, un-animated, instead of being invisible. Starting the
+        # attribute at 0 and relying on the animation to open it means anything
+        # that stalls SMIL leaves a blank frame — which is exactly what GitHub's
+        # rendered README did, while the same file animated fine standalone.
         p.append(f'<clipPath id="{cid}"><rect x="{PAD}" y="{y}" '
-                 f'height="{LH}" width="0">'
+                 f'height="{LH}" width="{w_px:.1f}">'
                  f'<animate attributeName="width" from="0" to="{w_px:.1f}" '
                  f'begin="{begin:.2f}s" dur="{STEP}s" fill="freeze"/>'
                  f'</rect></clipPath>')

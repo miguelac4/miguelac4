@@ -219,8 +219,14 @@ def build(cols, rows, frames, period):
             y = PAD + i * LH
             w = len(line) * CHAR_W
             begin = i * 0.09
+            # Width starts at its final value and the animation runs 0 -> full on
+            # top. If SMIL stalls, the picture is simply there un-animated rather
+            # than invisible; starting at 0 makes the image depend on the
+            # animation reaching its end, which GitHub's rendered README does not
+            # guarantee even though the same file animates fine standalone.
             p.append(f'<clipPath id="w{i}"><rect x="{PAD}" y="{y}" '
-                     f'height="{LH}" width="0"><animate attributeName="width" '
+                     f'height="{LH}" width="{w:.1f}">'
+                     f'<animate attributeName="width" '
                      f'from="0" to="{w:.1f}" begin="{begin:.2f}s" dur="0.09s" '
                      f'fill="freeze"/></rect></clipPath>')
             p.append(f'<g clip-path="url(#w{i})">'
