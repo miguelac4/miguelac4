@@ -21,8 +21,7 @@
 <img src="./ascii.svg" width="460" alt="Miguel Cordeiro"/>
 
 [linkedin](https://www.linkedin.com/in/miguelandrecordeiro/) &nbsp;·&nbsp;
-[email](mailto:miguel.andre.cordeiro@gmail.com) &nbsp;·&nbsp;
-[github](https://github.com/miguelac4)
+[email](mailto:miguel.andre.cordeiro@gmail.com)
 
 </div>
 
