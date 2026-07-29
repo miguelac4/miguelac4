@@ -3,14 +3,20 @@
   Everything on this page is generated locally and committed — nothing is fetched
   from a third-party badge, stats or image service at render time:
 
-    waves.svg   a barrel, drawn from a closed form rather than a photo, so no
-                licence and no attribution to carry. Loops seamlessly.
+    waves.svg   a barrel put through a 13-step character ramp. Derived from a
+                photograph, so unlike the rest of this page it does carry
+                whatever rights that photograph carries. Revealed line by line
+                once on load; it does not loop.
     hd-*.svg    the section headings, in the page's own typeface
     dash.svg    the hairline marking each item in the about list
 
   Regenerate with:
-    python scripts/generate_waves.py -o waves.svg --frames 12
+    python scripts/generate_portrait.py PHOTO --rows 26 --cols 76 \
+      --flatten 0 --autocontrast 1 -o waves.svg
     python scripts/generate_headings.py
+
+  scripts/generate_waves.py draws a barrel from maths instead, with no photograph
+  involved. The page does not use it; see scripts/README.md.
 
   The headings are images because GitHub strips <style> from rendered markdown,
   so a real markdown heading can only ever be GitHub's own sans-serif. The

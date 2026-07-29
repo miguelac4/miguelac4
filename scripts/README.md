@@ -22,7 +22,12 @@ embedded font is subset to exactly the letters those words spell, so a new
 letter needs a new subset — the script checks and tells you the command if so.
 The letters currently available are `abcklostu` and space.
 
-## The tube
+## The tube, drawn from maths — currently unused
+
+**The page does not use this.** `waves.svg` is now made from a photograph by
+`generate_portrait.py`; see the next section. This script is kept because it
+works and needs no image at all, which is the only way to have a barrel on the
+page that carries no third-party rights.
 
 ```
 python scripts/generate_waves.py -o waves.svg --frames 12 --period 6
@@ -30,7 +35,8 @@ python scripts/generate_waves.py -o waves.svg --frames 12 --period 6
 
 Standard library only. No image is involved — the barrel is drawn from a closed
 form — so there is no licence, no attribution and no third-party asset on the
-page.
+page. Unlike the photographic version it loops indefinitely rather than being
+revealed once.
 
 `--preview` prints frame 0 as text and writes nothing. Use it while tuning; the
 knobs worth touching are `EXIT_*` for the opening, `WALL` and `RIM` for how the
@@ -78,7 +84,7 @@ carries it.
 ## The ASCII pictures
 
 ```
-python scripts/generate_portrait.py PHOTO -o ascii.svg [options]
+python scripts/generate_portrait.py PHOTO -o OUT.svg [options]
 ```
 
 Needs Pillow (`python -m pip install Pillow`). Pillow is a build dependency
@@ -109,24 +115,38 @@ real tonal separation between it and the background, and sharp focus. A dark,
 soft, or busy photo cannot be rescued by these options; crop harder or use a
 different photo.
 
-**Nothing on the page uses this right now** — the hero is the photograph itself.
-The script is kept because it works and the option is one command away.
-
-A portrait was tried and dropped: the only photo available was dark, soft and
-had three people in it, and at one character per cell that reads as texture
-rather than a face. No amount of tuning fixes an input like that.
-
-The Ericeira frame, by contrast, renders well — a cliff against a bright sky has
-exactly the tonal separation this needs. No `--invert`, because the subject is
-*darker* than its background, and 76 columns is what lands it on the 620px page
-width:
+**This is what makes the page's hero.** `waves.svg` came from a photograph of a
+barrel:
 
 ```
-python scripts/generate_portrait.py assets/img/surfing-in-ericeira.jpg \
-  --rows 20 --cols 76 --flatten 0 --autocontrast 1 -o sea.svg
+python scripts/generate_portrait.py PHOTO --rows 26 --cols 76 \
+  --flatten 0 --autocontrast 1 -o waves.svg
 ```
 
-Then point the hero at `./sea.svg` instead of the photograph.
+No `--invert`: the wave is *darker* than the sky behind it, so dark-to-dense is
+already right. 76 columns is what lands the SVG on the 620px page width.
+
+**`--flatten 0` is the part that matters.** The flag defaults to 24, and leaving
+it on ruined the first attempt at this image: it subtracts a blurred copy to
+remove a lighting gradient, which also removes the large-scale form — the whole
+shape of the barrel. Eight variants generated with the default came out as
+near-identical flat fields. Only reach for `--flatten` when the photo really is
+unevenly lit.
+
+Ink level was chosen by generating a spread of variants and comparing them side
+by side in both themes. Worth knowing for next time: past roughly 0.55 mean ink,
+the water closes up into `%` and `@` and the striations inside the tube are lost,
+so the picture becomes a dark mass with a bright patch. The version on the page
+sits at 0.58 — a deliberate choice of presence over texture.
+
+Two things this script cannot fix, learned from the portrait that was tried and
+dropped: a photo that is dark, soft, or has several subjects in it reads as
+texture rather than as a picture, whatever the options say. Crop harder or use a
+different photo.
+
+The source photograph for `waves.svg` is not committed — it is not needed to
+render the page. It is also not original work, so it carries whatever rights came
+with it. `generate_waves.py` exists precisely to avoid that, if it ever matters.
 
 ## Checking the render before pushing
 
