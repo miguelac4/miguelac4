@@ -35,11 +35,11 @@
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>php &nbsp; java &nbsp; mysql &nbsp; react &nbsp; python &nbsp; kotlin &nbsp; javascript &nbsp; c++ &nbsp; c# &nbsp; html5 &nbsp; css3</samp>
+<samp>php &nbsp; java &nbsp; mysql &nbsp; react &nbsp; python &nbsp; kotlin &nbsp; javascript &nbsp; c++ &nbsp; c# &nbsp; html5 &nbsp; css3 &nbsp; tailwindcss</samp>
 
 <img src="./hd-tools.svg" width="620" alt="tools"/>
 
-<samp>git &nbsp; docker &nbsp; postman &nbsp; linux &nbsp; vitejs &nbsp; android&nbsp;studio &nbsp; mysql&nbsp;workbench &nbsp; tailwindcss &nbsp; jira</samp>
+<samp>git &nbsp; docker &nbsp; postman &nbsp; linux &nbsp; vitejs &nbsp; jira</samp>
 
 <img src="./hd-a-little-bit-more-about-me.svg" width="620" alt="a little bit more about me"/>
 
