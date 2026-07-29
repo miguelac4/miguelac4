@@ -28,13 +28,12 @@
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> Software Developer at Uniksystem, in Lisbon.<br>
-> Interested in the layer where software meets the machines that run it.
+> Software Engineer at Uniksystem, in Lisbon.
 
-Deepening my knowledge in **DevSecOps**, **cyber security** and **computer
-vision**. What I keep coming back to is software engineering, infrastructure and
-containerization, and artificial intelligence — building things that hold up,
-and understanding how they fail.
+<img src="./dash.svg" width="18" alt="-"/> &nbsp; Currently working as a Software Engineer at **Uniksystem**<br>
+<img src="./dash.svg" width="18" alt="-"/> &nbsp; Deepening my knowledge in **DevSecOps**, **Cyber Security**, and **Computer Vision**<br>
+<img src="./dash.svg" width="18" alt="-"/> &nbsp; Passionate about **software engineering, infrastructure &amp; containerization,**<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **and artificial intelligence**
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 

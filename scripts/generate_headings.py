@@ -27,8 +27,10 @@ import sys
 HEADINGS = ("about", "stack", "tools", "a little bit more about me")
 
 # The portrait's ink is the heading ink, so the page reads as one material.
-LIGHT = dict(emph="#424a53", rule="#d8dee4")
-DARK = dict(emph="#f0f6fc", rule="#30363d")
+# 'dim' is the quiet-but-legible tier: too faint for body text, right for a
+# marker. The hairline 'rule' would nearly vanish at list-marker size.
+LIGHT = dict(emph="#424a53", rule="#d8dee4", dim="#8c959f")
+DARK = dict(emph="#f0f6fc", rule="#30363d", dim="#8b949e")
 MONO = ("JBMono,ui-monospace,SFMono-Regular,Menlo,Consolas,"
         "&apos;Liberation Mono&apos;,monospace")
 
@@ -39,6 +41,7 @@ WIDTH = 620      # the column width every graphic on the page shares
 FS = 16          # heading size
 HEIGHT = 26
 ADVANCE = 0.6    # JetBrains Mono is 600/1000 units per em
+DASH_W = 18      # the about-list marker
 
 
 @functools.lru_cache(maxsize=None)
@@ -77,6 +80,26 @@ def draw(word):
         f'font-weight="600">{word}</text>'
         f'<line x1="{rule_x:.0f}" y1="12.5" x2="{WIDTH}" y2="12.5" '
         f'class="u-s" stroke-width="1"/>'
+        f'</svg>')
+
+
+def draw_dash():
+    """The hairline that marks each list item in the about section.
+
+    Sized so it sits where the eye expects a bullet: an inline image's bottom
+    edge rests on the text baseline, so the rule is drawn 4px up from the
+    bottom, which lands near the middle of lower-case text rather than under
+    it. No CSS is available to align it — GitHub strips style= from markdown.
+    """
+    w, h, y = DASH_W, 10, 6
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
+        f'viewBox="0 0 {w} {h}" fill="none">'
+        f'<style>.d-s{{stroke:{LIGHT["dim"]}}}'
+        f'@media(prefers-color-scheme:dark){{.d-s{{stroke:{DARK["dim"]}}}}}'
+        f'</style>'
+        f'<line x1="0" y1="{y}" x2="{w}" y2="{y}" class="d-s" '
+        f'stroke-width="1"/>'
         f'</svg>')
 
 
@@ -125,6 +148,8 @@ def main():
         name = f"hd-{word.replace(' ', '-')}.svg"
         if write(os.path.join(out_dir, name), draw(word)):
             changed.append(name)
+    if write(os.path.join(out_dir, "dash.svg"), draw_dash()):
+        changed.append("dash.svg")
     print("updated: " + (", ".join(changed) if changed else "nothing"))
 
 

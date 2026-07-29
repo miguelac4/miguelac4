@@ -10,8 +10,13 @@ break because someone else's service went down or rate-limited you.
 python scripts/generate_headings.py
 ```
 
-Writes `hd-about.svg`, `hd-stack.svg`, `hd-tools.svg` and
-`hd-a-little-bit-more-about-me.svg`.
+Writes `hd-about.svg`, `hd-stack.svg`, `hd-tools.svg`,
+`hd-a-little-bit-more-about-me.svg` and `dash.svg`.
+
+`dash.svg` is the hairline marking each item in the about list. It is an image
+rather than a `-` or `─` character so it carries the page's own rule colour and
+switches with the viewer's theme; a text character would render in GitHub's
+sans at whatever weight that font gives it.
 
 To rename or add a section, edit `HEADINGS` at the top of the script. The
 embedded font is subset to exactly the letters those words spell, so a new
@@ -71,13 +76,24 @@ needed to render the page, and the frame has other people in it.
 
 ## Checking the render before pushing
 
-`_preview.html` (gitignored) shows the page in light and dark side by side.
-Browsers refuse `file://` subresources for image documents, so serve it:
+Build `_preview.html` (gitignored) by pushing `README.md` through GitHub's own
+markdown renderer, then serve it — browsers refuse `file://` subresources for
+image documents, so it has to go over HTTP:
 
 ```
+python scripts/preview.py
 python -m http.server 8731
 # then open http://127.0.0.1:8731/_preview.html
 ```
+
+It shows the page stacked in light and dark. Two things worth knowing if you
+edit the markdown by hand:
+
+* Ask the API for `mode=markdown`, not `mode=gfm`. `gfm` is comment semantics
+  and turns every single newline into a `<br>`, which double-spaces anything
+  that already uses explicit `<br>`. README files do not behave that way.
+* A line may start with `<img>` and still contain `**bold**` — `img` is inline,
+  so it does not switch markdown off. A block-level tag such as `<div>` would.
 
 ## Credit
 
