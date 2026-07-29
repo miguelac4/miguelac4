@@ -3,7 +3,7 @@
   Everything on this page is generated locally and committed — nothing is fetched
   from a third-party badge, stats or image service at render time:
 
-    waves.svg   ASCII ocean swell, drawn from a sum of sines. No photo, so no
+    waves.svg   a barrel, drawn from a closed form rather than a photo, so no
                 licence and no attribution to carry. Loops seamlessly.
     hd-*.svg    the section headings, in the page's own typeface
     dash.svg    the hairline marking each item in the about list
@@ -19,7 +19,7 @@
 
 <div align="center">
 
-<img src="./waves.svg" width="620" alt="waves"/>
+<img src="./waves.svg" width="620" alt="tube"/>
 
 [linkedin](https://www.linkedin.com/in/miguelandrecordeiro/) &nbsp;·&nbsp;
 [email](mailto:miguel.andre.cordeiro@gmail.com)

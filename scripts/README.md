@@ -22,35 +22,58 @@ embedded font is subset to exactly the letters those words spell, so a new
 letter needs a new subset — the script checks and tells you the command if so.
 The letters currently available are `abcklostu` and space.
 
-## The waves
+## The tube
 
 ```
 python scripts/generate_waves.py -o waves.svg --frames 12 --period 6
 ```
 
-Standard library only. No image is involved: the swell is a sum of sines, so
-there is no licence, no attribution and no third-party asset on the page.
+Standard library only. No image is involved — the barrel is drawn from a closed
+form — so there is no licence, no attribution and no third-party asset on the
+page.
 
-`--preview` prints frame 0 as text and writes nothing — use it while tuning
-`LAYERS`, `TOP`, `SPAN` and `BUNCH`. `--frames 1` gives a still with the same
-line-by-line reveal the rest of the page uses.
+`--preview` prints frame 0 as text and writes nothing. Use it while tuning; the
+knobs worth touching are `EXIT_*` for the opening, `WALL` and `RIM` for how the
+water darkens, and `SPIN`/`SWIRL` for the striations. `--frames 1` gives a still
+with the same line-by-line reveal the rest of the page uses.
 
-Two things will break it if you edit the model:
+**After editing anything in the model, check the loop still closes:**
 
-* **Component speeds must be whole numbers.** Phase runs 0 to 2π across one
-  cycle, so an integer speed lands back exactly where it started and the loop is
-  seamless. A fractional speed visibly jumps on every repeat. `generate_waves.py`
-  has a check for this in its docstring, not in code — verify with
-  `field(c, r, 0) == field(c, r, 2*pi)`.
-* **`TOP + SPAN` must stay at or below 1.0**, or the frontmost layer's crest
-  falls below the last row and that layer never paints at all.
+```
+python -c "import importlib.util,math; s=importlib.util.spec_from_file_location('w','scripts/generate_waves.py'); w=importlib.util.module_from_spec(s); s.loader.exec_module(w); print(w.field(76,24,0)==w.field(76,24,2*math.pi))"
+```
 
-Two approaches were tried. Shading the slope of a height field in perspective —
-physically the more honest one — reads as an interference pattern at one
-character per cell, because the crest bands come out longer than the frame is
-wide. Layered occlusion is stylised but actually reads as water. Likewise a
-denser character on each crest was removed: on a light background denser means
-darker, and foam is the bright part of a wave, so it inverted the tone.
+Three things break it, and all three were hit while writing this:
+
+* **`SWIRL` must be a whole number.** `atan2` jumps from +π to −π along the
+  negative x axis. A fractional coefficient turns that branch cut into a seam
+  running visibly out of the frame.
+* **`SPEED` must be a whole number**, or the animation jumps on every repeat.
+* **The foam cannot reseed its hash per frame.** It is one fixed speckle pattern
+  scrolled sideways and wrapped at the frame width, which returns to its start by
+  construction. Seeding from the phase gives one more distinct value than there
+  are frames, and the foam resets visibly once per loop.
+
+Also worth knowing: everything is computed in **pixel** space, not cell space. A
+cell is 7.74 by 15, so a shape laid out in rows and columns comes out half as
+tall as intended.
+
+Three models were tried before this one, which is why the file looks the way it
+does:
+
+1. Shading the slope of a height field in perspective. Physically the most
+   honest, and it reads as an interference pattern — the crest bands come out
+   longer than the frame is wide.
+2. Layered swell: crest lines filled solid and overpainted front to back. This
+   reads as water, and is in the git history if a calm sea is ever wanted. A
+   denser character on each crest was tried and dropped, because denser is
+   *darker* on a light background and foam is the bright part of a wave.
+3. The barrel seen from outside — a wave with a hole in it. At this resolution it
+   reads as a hook, not a tube.
+
+What works is the barrel seen from **inside**: a bright almond exit, ink rising
+with distance out from it, striations sheared by bearing. The vignette is what
+carries it.
 
 ## The ASCII pictures
 
