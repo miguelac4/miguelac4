@@ -22,6 +22,36 @@ embedded font is subset to exactly the letters those words spell, so a new
 letter needs a new subset — the script checks and tells you the command if so.
 The letters currently available are `abcklostu` and space.
 
+## The waves
+
+```
+python scripts/generate_waves.py -o waves.svg --frames 12 --period 6
+```
+
+Standard library only. No image is involved: the swell is a sum of sines, so
+there is no licence, no attribution and no third-party asset on the page.
+
+`--preview` prints frame 0 as text and writes nothing — use it while tuning
+`LAYERS`, `TOP`, `SPAN` and `BUNCH`. `--frames 1` gives a still with the same
+line-by-line reveal the rest of the page uses.
+
+Two things will break it if you edit the model:
+
+* **Component speeds must be whole numbers.** Phase runs 0 to 2π across one
+  cycle, so an integer speed lands back exactly where it started and the loop is
+  seamless. A fractional speed visibly jumps on every repeat. `generate_waves.py`
+  has a check for this in its docstring, not in code — verify with
+  `field(c, r, 0) == field(c, r, 2*pi)`.
+* **`TOP + SPAN` must stay at or below 1.0**, or the frontmost layer's crest
+  falls below the last row and that layer never paints at all.
+
+Two approaches were tried. Shading the slope of a height field in perspective —
+physically the more honest one — reads as an interference pattern at one
+character per cell, because the crest bands come out longer than the frame is
+wide. Layered occlusion is stylised but actually reads as water. Likewise a
+denser character on each crest was removed: on a light background denser means
+darker, and foam is the bright part of a wave, so it inverted the tone.
+
 ## The ASCII pictures
 
 ```
