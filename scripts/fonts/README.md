@@ -17,10 +17,14 @@ Why inline it at all:
 
 | file | weight | covers |
 |---|---|---|
-| `jbmono-ramp.woff2` | 400 | the 13 ramp characters in `ascii.svg` |
-| `jbmono-head.woff2` | 600 | the letters used by the section headings |
-| `jbmono-400.woff2` | 400 | basic latin, for the stat graphics |
-| `jbmono-600.woff2` | 600 | basic latin, for the stat graphics |
+| `jbmono-ramp.woff2` | 400 | the 13 ramp characters `generate_portrait.py` draws |
+| `jbmono-head.woff2` | 600 | `abceiklmorstu` and space — exactly what `HEADINGS` spells |
+| `jbmono-600.woff2` | 600 | basic latin; the source the head subset is cut from |
+| `jbmono-400.woff2` | 400 | basic latin, kept as the regular-weight counterpart |
+
+`jbmono-head.woff2` is re-cut whenever `HEADINGS` needs a letter it lacks —
+`generate_headings.py` checks on every run and prints the command. Cut it from
+`jbmono-600.woff2`, which already covers basic latin, so no download is needed.
 
 Licensed under the SIL Open Font License 1.1 — see `OFL.txt`. Subsetting and
 redistribution in this form are permitted; the reserved font name is unchanged.
