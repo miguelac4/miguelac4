@@ -1,123 +1,55 @@
-<h1 align="center">👋 Hello, I'm Miguel! </h1>
-
-<p align="center">
-  💻 Software Developer
-</p>
-
----
-
-### 👨‍💼 About Me
-
-- Currently working as a Software Developer at **Uniksystem**
-- Deepening my knowledge in **DevSecOps**, **Cyber Security**, and **Computer Vision**
-- Passionate about **software engineering, infrastructure & containerization, and artificial intelligence**
-
----
-
-### 📫 Reach Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/miguelandrecordeiro/" target="_blank">
-    <img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:miguel.andre.cordeiro@gmail.com">
-    <img src="assets/icons/email.svg" width="36" height="36" alt="Email" />
-  </a>
-</p>
-
----
-
-### 🛠️ Languages / Tools / IDEs
-
-#### 💻 Languages
-<p align="left">
-  <img src="assets/icons/php.svg" width="36" height="36" alt="PHP" />
-  <img src="assets/icons/java.svg" width="36" height="36" alt="Java" />
-  <img src="assets/icons/mysql.svg" width="36" height="36" alt="MySQL" />
-  <img src="assets/icons/react.svg" width="36" height="36" alt="React" />
-  <img src="assets/icons/python.svg" width="36" height="36" alt="Python" />
-  <img src="assets/icons/kotlin.svg" width="36" height="36" alt="Kotlin" />
-  <img src="assets/icons/js.svg" width="36" height="36" alt="JavaScript" />
-  <img src="assets/icons/cpp.svg" width="36" height="36" alt="C++" />
-  <img src="assets/icons/csharp.svg" width="36" height="36" alt="C#" />
-  <img src="assets/icons/html5.svg" width="36" height="36" alt="HTML5" />
-  <img src="assets/icons/css3.svg" width="36" height="36" alt="CSS3" />
-</p>
-
-
-
-#### ⚙️ Tools
-<p align="left">
-  <!-- Git -->
-  <img src="assets/icons/git.svg" width="36" height="36" alt="Git" />
-
-  <!-- Docker -->
-  <img src="assets/icons/docker.svg" width="36" height="36" alt="Docker" />
-
-  <!-- Postman -->
-  <img src="assets/icons/postman.svg" width="36" height="36" alt="Postman" />
-
-  <!-- Cron / Linux -->
-  <img src="assets/icons/linux.svg" width="36" height="36" alt="Linux / Cron" />
-
-  <!-- ViteJS-->
-  <img src="assets/icons/vitejs.svg" width="36" height="36" alt="ViteJS" />
-
-  <!-- Android Studio -->
-  <img src="assets/icons/androidstudio.svg" width="36" height="36" alt="Android Studio" />
-
- <!-- MySQL Workbench -->
-  <img src="assets/icons/mysqlworkbench.svg" width="36" height="36" alt="MySQL Workbench" />
-
- <!-- Tailwind Css -->
-  <img src="assets/icons/tailwindcss.svg" width="36" height="36" alt="Tailwindcss" />
-
-  <!-- Jira -->
-  <img src="assets/icons/Jira.svg" width="36" height="36" alt="Jira" />
-</p>
-
 <!--
-#### 🧑‍💻 IDEs
-<p align="left">
-  <img src="assets/icons/vscode.svg" width="36" height="36" alt="VS Code" />
-  <img src="assets/icons/intellij.svg" width="36" height="36" alt="IntelliJ IDEA" />
-  <img src="assets/icons/pycharm.svg" width="36" height="36" alt="PyCharm" />
-  <img src="assets/icons/phpstorm.svg" width="36" height="36" alt="PhpStorm" />
-  <img src="assets/icons/eclipse.svg" width="36" height="36" alt="Eclipse IDE" />
-  <img src="assets/icons/jupyter.svg" width="36" height="36" alt="Jupyter Notebook" />
-  <img src="assets/icons/anaconda.svg" width="36" height="36" alt="Anaconda" />
-</p>
+  Layout, palette and typography follow https://github.com/andriidrok1/andriidrok1.
+  Every graphic on this page is generated locally and committed — nothing is
+  fetched from a third-party badge or stats service at render time:
 
----
+    ascii.svg   a photo through a 13-step character ramp
+    sea.svg     the same, from the Ericeira frame
+    hd-*.svg    the section headings, in the page's own typeface
 
-### 📊 GitHub Statistics
+  Regenerate with:
+    python scripts/generate_headings.py
+    python scripts/generate_portrait.py PHOTO -o ascii.svg [options]
 
-<p align="center">
-<img src="https://github-readme-streak-stat-taupe.vercel.app?user=miguelac4&theme=dark&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=miguelac4&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguelac4&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+  The headings are images because GitHub strips <style> from rendered markdown,
+  so a real markdown heading can only ever be GitHub's own sans-serif. The
+  animation is SMIL because GitHub strips <script>.
 -->
----
 
-### ❤️ A little bit more about me...
+<div align="center">
 
-> “Between lines of code and waves of the sea, I find my balance.”  
+<img src="./ascii.svg" width="460" alt="Miguel Cordeiro"/>
 
-<p>
-  <img
-    src="assets/img/blurred-frame.jpg"
-    alt="Mar"
-    style="
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 18px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.35);
-    "
-  />
-</p>
+[linkedin](https://www.linkedin.com/in/miguelandrecordeiro/) &nbsp;·&nbsp;
+[email](mailto:miguel.andre.cordeiro@gmail.com) &nbsp;·&nbsp;
+[github](https://github.com/miguelac4)
+
+</div>
+
+<img src="./hd-about.svg" width="620" alt="about"/>
+
+> Software Developer at Uniksystem, in Lisbon.<br>
+> Interested in the layer where software meets the machines that run it.
+
+Deepening my knowledge in **DevSecOps**, **cyber security** and **computer
+vision**. What I keep coming back to is software engineering, infrastructure and
+containerization, and artificial intelligence — building things that hold up,
+and understanding how they fail.
+
+<img src="./hd-stack.svg" width="620" alt="stack"/>
+
+<samp>java &nbsp; python &nbsp; php &nbsp; kotlin &nbsp; javascript &nbsp; react &nbsp; c++ &nbsp; c# &nbsp; mysql &nbsp; html &nbsp; css</samp>
+
+<img src="./hd-tools.svg" width="620" alt="tools"/>
+
+<samp>git &nbsp; docker &nbsp; linux &nbsp; postman &nbsp; vite &nbsp; tailwind &nbsp; jira &nbsp; intellij &nbsp; vs&nbsp;code</samp>
+
+<img src="./hd-a-little-bit-more-about-me.svg" width="620" alt="a little bit more about me"/>
+
+> “Between lines of code and waves of the sea, I find my balance.”
+
+<div align="center">
+
+<img src="./sea.svg" width="620" alt="Ericeira"/>
+
+</div>

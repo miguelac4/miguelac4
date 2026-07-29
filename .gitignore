@@ -1,0 +1,5 @@
+# Local render check — see scripts/README.md
+_preview.html
+
+__pycache__/
+*.pyc
