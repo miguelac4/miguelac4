@@ -37,8 +37,8 @@
 > Currently working as a Software Engineer at **Uniksystem**
 
 <img src="./dash.svg" width="18" alt="-"/> &nbsp; Deepening my knowledge in **DevSecOps**, **Cyber Security**, and **Computer Vision**<br>
-<img src="./dash.svg" width="18" alt="-"/> &nbsp; Passionate about **cloud infrastructure**, **containerization**, **CI/CD pipelines**,<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **and artificial intelligence**
+<img src="./dash.svg" width="18" alt="-"/> &nbsp; Passionate about **cloud infrastructure** and **containerization**<br>
+<img src="./dash.svg" width="18" alt="-"/> &nbsp; **CI/CD pipelines** and **artificial intelligence**
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
