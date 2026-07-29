@@ -18,7 +18,7 @@ Why inline it at all:
 | file | weight | covers |
 |---|---|---|
 | `jbmono-ramp.woff2` | 400 | the 13 ramp characters `generate_portrait.py` draws |
-| `jbmono-head.woff2` | 600 | `abceiklmorstu` and space — exactly what `HEADINGS` spells |
+| `jbmono-head.woff2` | 600 | `abcklostu` and space — exactly what `HEADINGS` spells |
 | `jbmono-600.woff2` | 600 | basic latin; the source the head subset is cut from |
 | `jbmono-400.woff2` | 400 | basic latin, kept as the regular-weight counterpart |
 

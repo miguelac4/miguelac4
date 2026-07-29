@@ -10,8 +10,7 @@ break because someone else's service went down or rate-limited you.
 python scripts/generate_headings.py
 ```
 
-Writes `hd-about.svg`, `hd-stack.svg`, `hd-tools.svg`,
-`hd-a-little-bit-more-about-me.svg` and `dash.svg`.
+Writes `hd-about.svg`, `hd-stack.svg`, `hd-tools.svg` and `dash.svg`.
 
 `dash.svg` is the hairline marking each item in the about list. It is an image
 rather than a `-` or `─` character so it carries the page's own rule colour and
@@ -21,7 +20,7 @@ sans at whatever weight that font gives it.
 To rename or add a section, edit `HEADINGS` at the top of the script. The
 embedded font is subset to exactly the letters those words spell, so a new
 letter needs a new subset — the script checks and tells you the command if so.
-The letters currently available are `abceiklmorstu` and space.
+The letters currently available are `abcklostu` and space.
 
 ## The ASCII pictures
 
@@ -57,27 +56,24 @@ real tonal separation between it and the background, and sharp focus. A dark,
 soft, or busy photo cannot be rescued by these options; crop harder or use a
 different photo.
 
-`ascii.svg`, the only one the page currently uses, was made with:
+**Nothing on the page uses this right now** — the hero is the photograph itself.
+The script is kept because it works and the option is one command away.
 
-```
-# a face, lighter than its background, so inverted
-python scripts/generate_portrait.py PHOTO \
-  --crop 0.20,0.33,0.63,0.72 --rows 50 --flatten 0 --autocontrast 2 \
-  --invert -o ascii.svg
-```
+A portrait was tried and dropped: the only photo available was dark, soft and
+had three people in it, and at one character per cell that reads as texture
+rather than a face. No amount of tuning fixes an input like that.
 
-Its source photo is deliberately **not** committed — it is not needed to render
-the page, and the frame has other people in it.
-
-The closing image is the photograph itself, not an ASCII treatment. To go back
-to one, this is the command that produced it — no `--invert`, because a cliff
-against a bright sky is *darker* than its background, and 76 columns is what
-lands it exactly on the 620px page width:
+The Ericeira frame, by contrast, renders well — a cliff against a bright sky has
+exactly the tonal separation this needs. No `--invert`, because the subject is
+*darker* than its background, and 76 columns is what lands it on the 620px page
+width:
 
 ```
 python scripts/generate_portrait.py assets/img/surfing-in-ericeira.jpg \
   --rows 20 --cols 76 --flatten 0 --autocontrast 1 -o sea.svg
 ```
+
+Then point the hero at `./sea.svg` instead of the photograph.
 
 ## Checking the render before pushing
 

@@ -24,7 +24,7 @@ import os
 import sys
 
 # The words drawn as hd-*.svg, in page order.
-HEADINGS = ("about", "stack", "tools", "a little bit more about me")
+HEADINGS = ("about", "stack", "tools")
 
 # The portrait's ink is the heading ink, so the page reads as one material.
 # 'dim' is the quiet-but-legible tier: too faint for body text, right for a
