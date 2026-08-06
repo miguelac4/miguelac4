@@ -42,7 +42,7 @@
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>php &nbsp; java &nbsp; mysql &nbsp; python &nbsp; kotlin &nbsp; javascript &nbsp; react &nbsp; opencv &nbsp; html &nbsp; css &nbsp; c++ &nbsp; c#</samp>
+<samp>php &nbsp; java &nbsp; mysql &nbsp; python &nbsp; yaml &nbsp; kotlin &nbsp; javascript &nbsp; react &nbsp; opencv &nbsp; html &nbsp; css &nbsp; c++ &nbsp; c#</samp>
 
 <img src="./hd-tools.svg" width="620" alt="tools"/>
 
